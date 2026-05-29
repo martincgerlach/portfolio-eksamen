@@ -793,6 +793,10 @@ h3 {
   margin-top: 16px;
 }
 
+.hidden {
+  display: none;
+}
+
 .site-footer {
   display: flex;
   flex-wrap: wrap;

@@ -10,7 +10,7 @@ Statisk portfolio-site til 1. semester eksamen på Multimediedesign.
 - `presentation.html` - 5-minutters præsentationsstruktur og spørgeforberedelse
 - `about.html` - kort profil og arbejdsform
 - `contact.html` - links til GitHub, portfolio og designsite
-- `script.js` - projektdata til work-siden
+- `script.js` - simpel show/hide-knap på præsentationssiden
 - `styles.css` - fælles styling
 
 ## Case-fokus
@@ -47,3 +47,12 @@ repo-link er:
 Det forventede GitHub Pages-link er:
 
 `https://martincgerlach.github.io/portfolio-eksamen-/`
+
+## Kodestil
+
+Koden skal holdes på 1. semester-niveau:
+
+- HTML-siderne er skrevet direkte, så indholdet er let at finde og forklare.
+- CSS bruger almindelige klasser, flexbox og simple grid-layouts.
+- JavaScript bruges kun til en lille show/hide-funktion, som kan forklares ved
+  eksamen.
