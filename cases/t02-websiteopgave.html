@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Case om T02 Websiteopgave og arbejdet med HTML, CSS og layout."
+    />
+    <title>T02 | Websiteopgave</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../index.html" aria-label="Gå til forsiden">
+        <span class="brand-mark">M</span>
+        <span>
+          <strong>Martin Gerlach</strong>
+          <small>Portfolioeksamen</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Hovednavigation">
+        <a href="../work.html" aria-current="page">Projekter</a>
+        <a href="../about.html">Om mig</a>
+        <a href="../presentation.html">Præsentation</a>
+        <a href="../contact.html">Kontakt</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="case-hero" aria-labelledby="case-title">
+        <div>
+          <p class="eyebrow">T02 / Grundlæggende web</p>
+          <h1 id="case-title">Websiteopgave.</h1>
+          <p class="case-lead">
+            Et informationssite om computere, hvor jeg arbejdede med flere
+            undersider, navigation, billeder, statistik og responsive layouts.
+          </p>
+          <div class="case-actions">
+            <a class="button button-primary" href="https://martincgerlach.github.io/websiteopgave/" target="_blank" rel="noreferrer">Live site</a>
+            <a class="button" href="https://github.com/martincgerlach/websiteopgave" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <figure class="case-preview">
+          <img src="../imgs/t02-websiteopgave.png" alt="Preview af Websiteopgave" />
+        </figure>
+      </section>
+
+      <section class="case-layout">
+        <div class="case-content">
+          <article class="case-section">
+            <h2>Overblik</h2>
+            <p>
+              Opgaven handlede om at bygge et website med flere sider og et
+              sammenhængende informationsflow. Sitet indeholder blandt andet
+              sider om min computer, operativsystemer, computerkomponenter,
+              statistik og et galleri.
+            </p>
+          </article>
+
+          <article class="case-section">
+            <h2>Hvad lavede jeg?</h2>
+            <p>
+              Jeg lavede et computersite med en fast navigation og flere
+              indholdssider. På forsiden brugte jeg en kort intro, statistik og
+              billeder til at give brugeren et hurtigt overblik, før man går
+              videre til de mere specifikke undersider.
+            </p>
+          </article>
+
+          <article class="case-section">
+            <h2>Hvordan gjorde jeg?</h2>
+            <p>
+              Jeg strukturerede indholdet i separate HTML-filer og brugte CSS
+              til layout, typografi og billedplacering. Jeg arbejdede med grid
+              og fleksible sektioner, så indholdet kunne læses i en tydelig
+              rækkefølge på både større og mindre skærme.
+            </p>
+          </article>
+
+          <article class="case-section">
+            <h2>Hvorfor valgte jeg det?</h2>
+            <p>
+              Jeg valgte en klassisk informationsstruktur, fordi brugeren skal
+              kunne finde konkrete emner hurtigt. Navigationen gør det tydeligt,
+              hvor man er i sitet, og opdelingen i undersider gør indholdet mere
+              overskueligt end én lang side.
+            </p>
+          </article>
+
+          <article class="case-section">
+            <h2>Teori og metode</h2>
+            <ul>
+              <li>Semantisk HTML til at skabe en logisk dokumentstruktur.</li>
+              <li>CSS-grid til at placere tekst, billeder og statistik.</li>
+              <li>Informationsarkitektur med faste undersider og navigation.</li>
+              <li>Billedoptimering og alt-tekster som del af webproduktion.</li>
+            </ul>
+          </article>
+
+          <article class="case-section">
+            <h2>Fejl, udfordringer og læring</h2>
+            <p>
+              En udfordring var at få tekst, billeder og statistik til at virke
+              som én samlet side i stedet for løse elementer. Jeg lærte, at
+              spacing og hierarki er lige så vigtigt som selve koden, fordi de
+              bestemmer hvor let indholdet er at læse.
+            </p>
+          </article>
+        </div>
+
+        <aside class="case-sidebar" aria-label="Case fakta">
+          <div class="case-panel">
+            <span>Fakta</span>
+            <h2>Projektinfo</h2>
+            <dl class="info-list">
+              <div>
+                <dt>Tema</dt>
+                <dd>T02 / Grundlæggende web</dd>
+              </div>
+              <div>
+                <dt>Rolle</dt>
+                <dd>Individuelt arbejde</dd>
+              </div>
+              <div>
+                <dt>Værktøjer</dt>
+                <dd>HTML, CSS og GitHub</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="case-panel">
+            <span>Eksamen</span>
+            <h2>Hvad jeg vil fremhæve</h2>
+            <p>
+              Denne case viser mit første større arbejde med struktur,
+              navigation, undersider og layoutprincipper.
+            </p>
+          </div>
+        </aside>
+      </section>
+
+      <nav class="case-nav" aria-label="Case navigation">
+        <a class="button" href="t01-first-mmd-website.html">Forrige case</a>
+        <a class="button" href="../work.html">Alle projekter</a>
+        <a class="button button-primary" href="t03-through-my-lens.html">Næste case</a>
+      </nav>
+    </main>
+
+    <footer class="site-footer">
+      <p>Portfolioeksamen 2026.</p>
+      <a href="https://github.com/martincgerlach">GitHub</a>
+    </footer>
+  </body>
+</html>

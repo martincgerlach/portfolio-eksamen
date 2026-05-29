@@ -1,28 +1,29 @@
-# Portfolio Assignment Template
+# Portfolioeksamen
 
-A small static portfolio website for showing larger school assignments such as
-AquaShield and Through My Lens.
+Statisk portfolio-site til 1. semester eksamen på Multimediedesign.
 
-## Edit Projects
+## Struktur
 
-Open `script.js` and update the `projects` array.
+- `index.html` - forside og eksamensfokus
+- `work.html` - oversigt over tema-projekter
+- `cases/` - case-sider for T01-T05
+- `presentation.html` - 5-minutters præsentationsstruktur og spørgeforberedelse
+- `about.html` - kort profil og arbejdsform
+- `contact.html` - links til GitHub, portfolio og designsite
+- `script.js` - projektdata til work-siden
+- `styles.css` - fælles styling
 
-- `title`: project name
-- `status`: visible label on the card
-- `category`: filter group, such as `campaign`, `portfolio`, or `development`
-- `description`: short explanation of the assignment
-- `skills`: tools and methods used
-- `liveUrl`: live website link
-- `githubUrl`: GitHub repository link
-- `image`: preview image path, for example `imgs/aquashield.png`
+## Case-fokus
 
-Put your preview screenshots in the `imgs` folder, then reference them from
-the matching project object.
+Hver case skal kunne forklare:
 
-Example:
+- hvad projektet gik ud på
+- hvordan det blev lavet
+- hvorfor de vigtigste valg blev taget
+- hvilke faglige begreber der passer til projektet
+- hvilke fejl, udfordringer og læringer der kom ud af processen
 
-```js
-image: "imgs/aquashield.png",
-githubUrl: "https://github.com/your-name/aquashield",
-liveUrl: "https://your-live-site.example.com",
-```
+## Deadline
+
+Aflevering: 10. juni 2026.
+Intern færdiggørelse: 9. juni 2026.
