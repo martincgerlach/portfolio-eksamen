@@ -7,10 +7,8 @@ Statisk portfolio-site til 1. semester eksamen på Multimediedesign.
 - `index.html` - forside og eksamensfokus
 - `work.html` - oversigt over tema-projekter
 - `cases/` - case-sider for T01-T05
-- `presentation.html` - 5-minutters præsentationsstruktur og spørgeforberedelse
 - `about.html` - kort profil og arbejdsform
 - `contact.html` - links til GitHub, portfolio og designsite
-- `script.js` - simpel show/hide-knap på præsentationssiden
 - `styles.css` - fælles styling
 
 ## Case-fokus
@@ -54,5 +52,5 @@ Koden skal holdes på 1. semester-niveau:
 
 - HTML-siderne er skrevet direkte, så indholdet er let at finde og forklare.
 - CSS bruger almindelige klasser, flexbox og simple grid-layouts.
-- JavaScript bruges kun til en lille show/hide-funktion, som kan forklares ved
+- Sitet bruger ikke JavaScript lige nu, så HTML og CSS er lette at forklare ved
   eksamen.
