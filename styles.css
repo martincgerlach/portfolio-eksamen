@@ -178,6 +178,21 @@ h3 {
   font-size: 1.12rem;
 }
 
+.work-hero {
+  max-width: 720px;
+  padding-bottom: clamp(22px, 4vw, 34px);
+}
+
+.work-hero h1 {
+  max-width: 680px;
+  font-size: clamp(2rem, 4.6vw, 3.4rem);
+}
+
+.work-hero p:not(.eyebrow) {
+  max-width: 620px;
+  margin-bottom: 18px;
+}
+
 .page-hero.narrow {
   max-width: 820px;
 }
@@ -259,14 +274,6 @@ h3 {
   box-shadow: 0 20px 32px rgba(9, 12, 9, 0.24);
 }
 
-.stone-large {
-  right: 39%;
-  bottom: 23%;
-  width: clamp(160px, 18vw, 250px);
-  aspect-ratio: 0.86;
-  transform: rotate(4deg);
-}
-
 .stone-left {
   bottom: 12%;
   left: 10%;
@@ -281,6 +288,125 @@ h3 {
   width: clamp(44px, 5vw, 74px);
   aspect-ratio: 1.45;
   transform: rotate(10deg);
+}
+
+.portfolio-book {
+  position: absolute;
+  right: 12%;
+  bottom: 16%;
+  z-index: 3;
+  display: block;
+  width: clamp(154px, 17vw, 230px);
+  aspect-ratio: 0.86;
+  color: #ffffff;
+  text-decoration: none;
+  transform: rotate(4deg);
+  transform-origin: 50% 100%;
+  transition: transform 280ms ease;
+}
+
+.portfolio-book:focus-visible {
+  outline: 2px solid #f4f1e8;
+  outline-offset: 8px;
+  border-radius: var(--radius);
+}
+
+.portfolio-book-cover,
+.portfolio-book-lid,
+.portfolio-book-page {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  border-radius: var(--radius);
+}
+
+.portfolio-book-cover {
+  inset: 24% 10% 8%;
+  z-index: 3;
+  border: 1px solid rgba(244, 241, 232, 0.18);
+  background: #2a332b;
+  box-shadow: 0 20px 32px rgba(9, 12, 9, 0.24);
+}
+
+.portfolio-book-lid {
+  top: 8%;
+  left: 8%;
+  z-index: 4;
+  width: 84%;
+  height: 35%;
+  border: 1px solid rgba(244, 241, 232, 0.22);
+  background: #374334;
+  box-shadow: 0 18px 26px rgba(9, 12, 9, 0.18);
+  transform-origin: 50% 100%;
+  transition: transform 280ms ease;
+}
+
+.portfolio-book-page {
+  left: 28%;
+  bottom: 25%;
+  z-index: 2;
+  width: 42%;
+  height: 36%;
+  border: 1px solid rgba(42, 51, 43, 0.18);
+  background: #f4f1e8;
+  box-shadow: 0 12px 20px rgba(9, 12, 9, 0.16);
+  transform: translateY(22px) scale(0.84);
+  transition: transform 300ms ease;
+}
+
+.portfolio-book-page-one {
+  background: #dfe8dc;
+}
+
+.portfolio-book-page-two {
+  background: #f4f1e8;
+}
+
+.portfolio-book-page-three {
+  background: #d8e5ea;
+}
+
+.portfolio-book-label {
+  position: absolute;
+  right: 8%;
+  bottom: -28px;
+  z-index: 5;
+  color: rgba(244, 241, 232, 0.88);
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  opacity: 0.78;
+  transition: opacity 280ms ease;
+}
+
+.portfolio-book:hover,
+.portfolio-book:focus-visible {
+  transform: translateY(-6px) rotate(2deg);
+}
+
+.portfolio-book:hover .portfolio-book-lid,
+.portfolio-book:focus-visible .portfolio-book-lid {
+  transform: translateY(-18%) rotate(-7deg);
+}
+
+.portfolio-book:hover .portfolio-book-page-one,
+.portfolio-book:focus-visible .portfolio-book-page-one {
+  transform: translate(-34px, -58px) rotate(-10deg);
+}
+
+.portfolio-book:hover .portfolio-book-page-two,
+.portfolio-book:focus-visible .portfolio-book-page-two {
+  transform: translate(0, -72px) rotate(2deg);
+}
+
+.portfolio-book:hover .portfolio-book-page-three,
+.portfolio-book:focus-visible .portfolio-book-page-three {
+  transform: translate(34px, -55px) rotate(10deg);
+}
+
+.portfolio-book:hover .portfolio-book-label,
+.portfolio-book:focus-visible .portfolio-book-label {
+  opacity: 1;
 }
 
 .hero-copy {
@@ -811,6 +937,10 @@ h3 {
     font-size: clamp(2.35rem, 10vw, 2.75rem);
   }
 
+  .work-hero h1 {
+    font-size: clamp(2rem, 10vw, 2.65rem);
+  }
+
   .hero-labels {
     align-items: flex-start;
     flex-direction: column;
@@ -822,11 +952,22 @@ h3 {
 
   .hero-copy {
     width: min(360px, calc(100% - 64px));
-    transform: translate(-50%, -12%);
+    transform: translate(-50%, -44%);
   }
 
   .hero-copy p:not(.eyebrow) {
     font-size: 0.9rem;
+  }
+
+  .portfolio-book {
+    right: 6%;
+    bottom: 6%;
+    width: clamp(112px, 30vw, 138px);
+  }
+
+  .portfolio-book-label {
+    bottom: -22px;
+    font-size: 0.58rem;
   }
 
   .device-grid,
@@ -843,5 +984,31 @@ h3 {
   .project-links a,
   .button {
     width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-book,
+  .portfolio-book * {
+    transition: none;
+  }
+
+  .portfolio-book:hover,
+  .portfolio-book:focus-visible {
+    transform: rotate(4deg);
+  }
+
+  .portfolio-book:hover .portfolio-book-lid,
+  .portfolio-book:focus-visible .portfolio-book-lid {
+    transform: none;
+  }
+
+  .portfolio-book:hover .portfolio-book-page-one,
+  .portfolio-book:focus-visible .portfolio-book-page-one,
+  .portfolio-book:hover .portfolio-book-page-two,
+  .portfolio-book:focus-visible .portfolio-book-page-two,
+  .portfolio-book:hover .portfolio-book-page-three,
+  .portfolio-book:focus-visible .portfolio-book-page-three {
+    transform: translateY(22px) scale(0.84);
   }
 }
