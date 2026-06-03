@@ -5,8 +5,8 @@ Statisk portfolio-site til 1. semester eksamen på Multimediedesign.
 ## Struktur
 
 - `index.html` - forside og eksamensfokus
-- `work.html` - oversigt over tema-projekter
-- `cases/` - case-sider for T01-T05
+- `work.html` - oversigt over tema-projekter og portfolio-processen
+- `cases/` - case-sider for T01-T06
 - `about.html` - kort profil og arbejdsform
 - `contact.html` - links til GitHub, portfolio og designsite
 - `styles.css` - fælles styling
@@ -20,6 +20,9 @@ Hver case skal kunne forklare:
 - hvorfor de vigtigste valg blev taget
 - hvilke faglige begreber der passer til projektet
 - hvilke fejl, udfordringer og læringer der kom ud af processen
+
+T06 er en procescase for selve portfolioet. Den viser dokumentation,
+brugerfeedback, Figma-prototype og de valg, der blev taget under udviklingen.
 
 ## Deadline
 
