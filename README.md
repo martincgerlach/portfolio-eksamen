@@ -10,6 +10,7 @@ Statisk portfolio-site til 1. semester eksamen på Multimediedesign.
 - `about.html` - kort profil og arbejdsform
 - `contact.html` - links til GitHub, portfolio og designsite
 - `styles.css` - fælles styling
+- `script.js` - enkel filtrering på projektsiden
 
 ## Case-fokus
 
@@ -61,5 +62,7 @@ Koden skal holdes på 1. semester-niveau:
 
 - HTML-siderne er skrevet direkte, så indholdet er let at finde og forklare.
 - CSS bruger almindelige klasser, flexbox og simple grid-layouts.
-- Sitet bruger ikke JavaScript lige nu, så HTML og CSS er lette at forklare ved
-  eksamen.
+- JavaScript bruges kun til et lille filter på projektsiden, så man kan vælge
+  mellem tema-projekter og procescase.
+- Koden er skrevet uden framework, så den kan forklares ud fra HTML, CSS og
+  almindelige DOM-events.

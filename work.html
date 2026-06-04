@@ -39,9 +39,15 @@
         </p>
       </section>
 
+      <section class="project-filter-section" aria-label="Filtrer projekter">
+        <button class="filter-button" type="button" data-filter="alle" aria-pressed="true">Alle</button>
+        <button class="filter-button" type="button" data-filter="tema" aria-pressed="false">Tema-projekter</button>
+        <button class="filter-button" type="button" data-filter="proces" aria-pressed="false">Procescase</button>
+      </section>
+
       <section class="work-section" aria-label="Projektliste">
         <div class="device-grid work-device-grid">
-          <article class="work-card">
+          <article class="work-card" data-project-type="tema">
             <div class="laptop laptop-small">
               <div class="laptop-screen">
                 <img
@@ -77,7 +83,7 @@
             </div>
           </article>
 
-          <article class="work-card">
+          <article class="work-card" data-project-type="tema">
             <a
               class="project-preview-link"
               href="https://martincgerlach.github.io/websiteopgave/"
@@ -124,7 +130,7 @@
             </div>
           </article>
 
-          <article class="work-card">
+          <article class="work-card" data-project-type="tema">
             <a
               class="project-preview-link"
               href="https://martincgerlach.github.io/Through-my-lens/"
@@ -171,7 +177,7 @@
             </div>
           </article>
 
-          <article class="work-card">
+          <article class="work-card" data-project-type="tema">
             <a
               class="project-preview-link"
               href="https://martincgerlach.github.io/AquaShield/"
@@ -218,7 +224,7 @@
             </div>
           </article>
 
-          <article class="work-card">
+          <article class="work-card" data-project-type="tema">
             <a
               class="project-preview-link"
               href="https://sakura-virksomhedssite.github.io/virksomhedssite/"
@@ -266,7 +272,7 @@
             </div>
           </article>
 
-          <article class="work-card">
+          <article class="work-card" data-project-type="proces">
             <a
               class="project-preview-link"
               href="cases/t06-portfolio-proces.html"
@@ -317,5 +323,6 @@
       <p>Portfolioeksamen 2026.</p>
       <a href="https://github.com/martincgerlach">GitHub</a>
     </footer>
+    <script src="script.js" defer></script>
   </body>
 </html>
