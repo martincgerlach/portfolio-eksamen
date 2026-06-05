@@ -44,11 +44,11 @@ som linksene peger på.
 GitHub Pages-linket skal testes igen, når deployment er slået til. Det forventede
 repo-link er:
 
-`https://github.com/martincgerlach/portfolio-eksamen-`
+`https://github.com/martincgerlach/portfolio-eksamen`
 
 Det forventede GitHub Pages-link er:
 
-`https://martincgerlach.github.io/portfolio-eksamen-/`
+`https://martincgerlach.github.io/portfolio-eksamen/`
 
 ## Figma dokumentation
 
