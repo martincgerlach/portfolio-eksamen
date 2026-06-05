@@ -815,6 +815,9 @@ h3 {
 
 .case-hero h1 {
   margin-bottom: 18px;
+  font-size: clamp(2.25rem, 4vw, 3.4rem);
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .case-lead {
@@ -857,7 +860,13 @@ h3 {
 
 .case-section h2 {
   margin-bottom: 14px;
-  font-size: clamp(1.55rem, 3vw, 2.25rem);
+  font-size: clamp(1.4rem, 2.4vw, 1.95rem);
+}
+
+.case-section p,
+.case-section li {
+  font-size: 0.98rem;
+  line-height: 1.65;
 }
 
 .case-section p:last-child,
@@ -886,12 +895,15 @@ h3 {
 
 .case-panel h2 {
   margin: 8px 0 12px;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
+  line-height: 1.2;
 }
 
 .case-panel p {
   margin-bottom: 0;
   color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
 }
 
 .info-list {
