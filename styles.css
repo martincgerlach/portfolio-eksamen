@@ -653,6 +653,11 @@ h3 {
   padding: 18px;
 }
 
+.work-card[hidden],
+.work-card.is-hidden {
+  display: none;
+}
+
 .work-card-text {
   display: grid;
   gap: 10px;
