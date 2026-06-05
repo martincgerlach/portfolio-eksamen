@@ -293,7 +293,7 @@ h3 {
 .portfolio-book {
   position: absolute;
   right: 12%;
-  bottom: 16%;
+  bottom: 20%;
   z-index: 3;
   display: block;
   width: clamp(154px, 17vw, 230px);
@@ -1053,7 +1053,7 @@ h3 {
 
   .portfolio-book {
     right: 6%;
-    bottom: 6%;
+    bottom: 10%;
     width: clamp(112px, 30vw, 138px);
   }
 
