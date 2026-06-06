@@ -8,7 +8,7 @@ Statisk portfolio-site til 1. semester eksamen på Multimediedesign.
 - `work.html` - oversigt over tema-projekter og portfolio-processen
 - `cases/` - case-sider for T01-T06
 - `about.html` - kort profil og arbejdsform
-- `contact.html` - links til GitHub, portfolio og designsite
+- `contact.html` - links til GitHub-repository, Figma og designsite
 - `styles.css` - fælles styling
 - `script.js` - enkel filtrering på projektsiden
 
