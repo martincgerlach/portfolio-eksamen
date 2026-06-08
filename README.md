@@ -28,7 +28,8 @@ brugerfeedback, Figma-prototype og de valg, der blev taget under udviklingen.
 ## Deadline
 
 Aflevering: 10. juni 2026.
-Intern færdiggørelse: 9. juni 2026.
+Intern
+ færdiggørelse: 9. juni 2026.
 
 ## Officielle afleveringskrav
 
