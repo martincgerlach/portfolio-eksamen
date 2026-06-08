@@ -9,7 +9,7 @@
     />
     <title>Kontakt | Martin Gerlach Portfolio</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=2" />
+    <link rel="stylesheet" href="styles.css?v=4" />
   </head>
   <body>
     <header class="site-header">
@@ -21,7 +21,19 @@
         </span>
       </a>
 
-      <nav class="main-nav" aria-label="Hovednavigation">
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="Åbn menu"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="main-navigation" aria-label="Hovednavigation">
         <a href="work.html">Projekter</a>
         <a href="about.html">Om mig</a>
         <a href="contact.html" aria-current="page">Kontakt</a>
@@ -67,5 +79,6 @@
       <p>Portfolioeksamen 2026.</p>
       <a href="https://github.com/martincgerlach">GitHub</a>
     </footer>
+    <script src="script.js?v=3" defer></script>
   </body>
 </html>

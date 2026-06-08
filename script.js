@@ -1,3 +1,23 @@
+const menuButton = document.querySelector(".menu-button");
+const mainNavigation = document.querySelector(".main-nav");
+
+if (menuButton && mainNavigation) {
+  menuButton.addEventListener("click", () => {
+    const menuIsOpen = mainNavigation.classList.toggle("is-open");
+
+    menuButton.setAttribute("aria-expanded", menuIsOpen);
+    menuButton.setAttribute("aria-label", menuIsOpen ? "Luk menu" : "Åbn menu");
+  });
+
+  mainNavigation.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      mainNavigation.classList.remove("is-open");
+      menuButton.setAttribute("aria-expanded", "false");
+      menuButton.setAttribute("aria-label", "Åbn menu");
+    });
+  });
+}
+
 const filterButtons = document.querySelectorAll("[data-filter]");
 const projectCards = document.querySelectorAll("[data-project-type]");
 
