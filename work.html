@@ -20,7 +20,7 @@
           <small>Portfolioeksamen</small>
         </span>
       </a>
-
+ 
       <button
         class="menu-button"
         type="button"
@@ -32,14 +32,14 @@
         <span></span>
         <span></span>
       </button>
-
+ 
       <nav class="main-nav" id="main-navigation" aria-label="Hovednavigation">
         <a href="work.html" aria-current="page">Projekter</a>
         <a href="about.html">Om mig</a>
         <a href="contact.html">Kontakt</a>
       </nav>
     </header>
-
+ 
     <main>
       <section class="page-hero work-hero" aria-labelledby="work-title">
         <p class="eyebrow">Temaer</p>
@@ -50,27 +50,35 @@
           forklares til eksamen.
         </p>
       </section>
-
+ 
       <section class="project-filter-section" aria-label="Filtrer projekter">
         <button class="filter-button" type="button" data-filter="alle" aria-pressed="true">Alle</button>
         <button class="filter-button" type="button" data-filter="tema" aria-pressed="false">Tema-projekter</button>
         <button class="filter-button" type="button" data-filter="proces" aria-pressed="false">Procescase</button>
       </section>
-
+ 
       <section class="work-section" aria-label="Projektliste">
         <div class="device-grid work-device-grid">
           <article class="work-card" data-project-type="tema">
-            <div class="laptop laptop-small">
-              <div class="laptop-screen">
-                <img
-                  src="imgs/t01-first-mmd-website.png"
-                  alt="Preview af Min første MMD-website"
-                  loading="lazy"
-                />
+            <a
+              class="project-preview-link"
+              href="https://martincgerlach.github.io/mmd-portfolio/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Åbn live site for Min første MMD-website"
+            >
+              <div class="laptop laptop-small">
+                <div class="laptop-screen">
+                  <img
+                    src="imgs/t01-first-mmd-website.png"
+                    alt="Preview af Min første MMD-website"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="laptop-base"></div>
               </div>
-              <div class="laptop-base"></div>
-            </div>
-
+            </a>
+ 
             <div class="work-card-text">
               <p class="project-meta">T01 / Introcase</p>
               <h2>Min første MMD-website</h2>
@@ -94,7 +102,7 @@
               </div>
             </div>
           </article>
-
+ 
           <article class="work-card" data-project-type="tema">
             <a
               class="project-preview-link"
@@ -114,7 +122,7 @@
                 <div class="laptop-base"></div>
               </div>
             </a>
-
+ 
             <div class="work-card-text">
               <p class="project-meta">T02 / Stillet opgave</p>
               <h2>Websiteopgave</h2>
@@ -141,7 +149,7 @@
               </div>
             </div>
           </article>
-
+ 
           <article class="work-card" data-project-type="tema">
             <a
               class="project-preview-link"
@@ -161,7 +169,7 @@
                 <div class="laptop-base"></div>
               </div>
             </a>
-
+ 
             <div class="work-card-text">
               <p class="project-meta">T03 / Færdig case</p>
               <h2>Through My Lens</h2>
@@ -188,7 +196,7 @@
               </div>
             </div>
           </article>
-
+ 
           <article class="work-card" data-project-type="tema">
             <a
               class="project-preview-link"
@@ -208,7 +216,7 @@
                 <div class="laptop-base"></div>
               </div>
             </a>
-
+ 
             <div class="work-card-text">
               <p class="project-meta">T04 / Færdig case</p>
               <h2>AquaShield</h2>
@@ -224,7 +232,7 @@
               <ul class="skill-list" aria-label="Færdigheder brugt i T04">
                 <li>HTML</li>
                 <li>CSS</li>
-         <li>JavaScript</li>
+                <li>JavaScript</li>
                 <li>Formularer</li>
                 <li>UX-writing</li>
               </ul>
@@ -235,7 +243,7 @@
               </div>
             </div>
           </article>
-
+ 
           <article class="work-card" data-project-type="tema">
             <a
               class="project-preview-link"
@@ -255,7 +263,7 @@
                 <div class="laptop-base"></div>
               </div>
             </a>
-
+ 
             <div class="work-card-text">
               <p class="project-meta">T05 / Færdig case</p>
               <h2>Nørrebro Posthus</h2>
@@ -283,7 +291,7 @@
               </div>
             </div>
           </article>
-
+ 
           <article class="work-card" data-project-type="proces">
             <a
               class="project-preview-link"
@@ -301,7 +309,7 @@
                 <div class="laptop-base"></div>
               </div>
             </a>
-
+ 
             <div class="work-card-text">
               <p class="project-meta">T06 / Procescase</p>
               <h2>Portfolio-processen</h2>
@@ -330,7 +338,7 @@
         </div>
       </section>
     </main>
-
+ 
     <footer class="site-footer">
       <p>Portfolioeksamen 2026.</p>
       <a href="https://github.com/martincgerlach">GitHub</a>
