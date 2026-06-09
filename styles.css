@@ -685,7 +685,8 @@ h3 {
   padding-left: 12px;
 }
 
-.skill-list {
+.skill-list li,
+.skill-list span {
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
